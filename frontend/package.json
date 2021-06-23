@@ -1,0 +1,30 @@
+{
+  "name": "phonesapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^28.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "bootstrap-icons": "^1.5.0",
+    "core-js": "^3.6.4",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

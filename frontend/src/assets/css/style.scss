@@ -1,0 +1,364 @@
+#app {
+  background-color: #C2C2C2;
+  height: 100vh;
+  overflow: auto;
+  font-family: 'Lato', sans-serif;    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  
+}
+
+/* naslovnica */
+.pl-custom{
+  background-color: #272424;
+  color: #C2C2C2;
+  margin-bottom: 20px !important;
+  padding: 10px;
+  border-style: hidden;
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+.pl-custom:hover{
+  background-color: #FEC303;
+  color: #1D1D1D;
+  text-decoration: none;
+}
+
+
+
+/* Navbar */
+.fw-light-custom{
+    color: #FEC303;
+}
+
+.navbar {
+    background-color: #1D1D1D; 
+}
+
+.text-end {
+    padding-right: 50px;
+}
+
+.nav-custom-text a{
+    color: #C2C2C2;
+}
+
+.nav-custom-text a:hover{
+    color: #FEC303 !important;
+}
+
+.b:hover{
+  color: #FEC303 !important;
+  cursor: pointer;
+}
+
+#dropdown-custom {
+    color: #C2C2C2 !important;
+}
+
+.dropdownmenu-custom {
+    background-color: #1D1D1D;
+}
+
+.dropdown-item{
+  color: #C2C2C2 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #272424;
+}
+
+
+
+/** Login */
+
+
+
+.login-form{
+    padding: 9%;
+    background:#1D1D1D;
+    box-shadow: 0 5px 8px 0 #1D1D1D, 0 9px 26px 0 #1D1D1D;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #C2C2C2;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+
+.btnSubmit:hover{
+    background-color: #FEC303;
+}
+
+.login-title {
+    color: #C2C2C2;
+    margin-bottom: 10%;
+    animation: color-change 5s infinite;
+}
+
+.form-control{
+    background-color: #C2C2C2;
+}
+
+.form-control:hover{
+    background-color: #FEC303;
+    border-color: #FEC303;
+}
+  
+@keyframes color-change {
+    0% { color: #FEC303; }
+    25% { color: #1D1D1D; }
+    50% { color: #C2C2C2; }
+    100% { color: #FEC303; }
+}
+
+/* Footer */
+
+.footer-custom {
+    height: 2rem;
+    background-color: #1D1D1D; 
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C2C2C2;
+    z-index: 10;
+}
+
+/* Kartice uredaja */
+
+.card {
+    display:grid;
+    grid-template-rows: 50% 40% 10%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #1D1D1D;
+    color: #C2C2C2;
+    box-shadow: 0 5px 8px 0 #1D1D1D, 0 9px 26px 0 #1D1D1D;
+}
+
+.phones{
+    margin: 0 auto 0 auto;
+    width: 500px;
+}
+
+img.card-img-top{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-nav-link{
+    width: 100px;
+    margin: 0 auto 0 auto;
+    border: 1px;
+    border-style:solid;
+    color: #C2C2C2 !important;
+    background-color: #282726;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.custom-nav-link:hover{
+    color: #1D1D1D !important;
+    background-color: #FEC303;
+}
+
+.btn-warning{
+    background-color: #282726;
+}
+
+.btn-warning:hover{
+    color: #282726 !important;
+    
+}
+
+.pag{
+  margin-bottom: 50px;
+}
+
+/** Dodavanje */
+
+.h1-modal{
+  margin: 0 auto 0 auto;
+}
+
+.form-control-custom{
+  height: 200px;
+}
+
+
+.dodavanje-phones{
+  background-color: #282726;
+  height: 100%;
+  padding-top: 20px;
+  color: #C2C2C2;
+  h1{
+    font-size: 1rem;
+  }
+}
+
+.dodavanje-custom{
+  width: 100px;
+  border: 1px;
+  border-style:solid;
+  color: #FEC303 !important;
+  background-color: #28272600;
+}
+
+.dodavanje-custom:hover{
+  color: #1D1D1D !important;
+  background-color: #FEC303;
+}
+
+/** komentari */
+
+.comment {
+  border: 1px solid #FEC303;
+  background-color: #272424;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.sadrzaj-komentara{
+  display: inline;
+  color: #C2C2C2;
+}
+
+.datum-komentara{
+  color: #C2C2C2;
+}
+
+.komentar {
+  margin: 0px;
+  width: 100%;
+}
+
+.obrisi {
+  cursor: pointer;
+  color: #FEC303;
+  justify-content: right;
+  text-align: right;
+}
+
+.komentari-grid{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+/** Detaljno vue */
+
+.podaci{
+  background-color: #272424;
+  color: #C2C2C2;
+} 
+
+.detaljnogrid{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  .prvired {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+  .prvired img{
+    width: 400px;
+  }
+  .drugired{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+
+.drugiredsredina{
+  margin-bottom: 20px;
+}
+
+.category-form{
+  background-color: #1D1D1D;
+}
+
+th {
+  background-color: #1D1D1D;
+  
+}
+
+.datafromdb{
+  padding-left: 150px;
+  padding-right: 10px;
+}
+
+.th1{
+  padding-left: 10px;
+}
+
+.td1{
+  padding-left: 10px;
+}
+
+
+/** ikonice */
+
+.fas{
+  color: #FEC303;
+}
+
+
+@media only screen and (max-width: 991px){
+    
+    .phones{
+    margin: 0 auto 0 auto;
+    padding: 0 20px 0 20px;
+    }
+    img.card-img-top{
+        width: 50%;
+    }
+    .detaljnogrid{
+      display: grid;
+      grid-template-rows: 50% 50%;
+      .prvired {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+      }
+      .prvired img{
+        width: 400px;
+      }
+      .drugired{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        text-align: left;
+        margin-top: 20px;
+      }
+    }
+   
+  }
+  @media only screen and (max-width: 450px){
+    .phones{
+    margin: 0 auto 0 auto;
+    width: 300px;
+    }
+    
+  }
+
+  
+  
