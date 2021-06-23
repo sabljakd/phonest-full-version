@@ -47,6 +47,27 @@
       />
      </div>
 
+               <div class="form-group">
+      <input
+       v-model="body.memorija"
+       type="text"
+       placeholder="RAM Memorija"
+       class="form-control"
+      />
+     </div>
+
+               <div class="form-group">
+      <input
+       v-model="body.memorija2"
+       type="text"
+       placeholder="Memorija Uređaja"
+       class="form-control"
+      />
+     </div>
+
+
+
+
      <div id="form-group">
       <textarea
        v-model="body.content"
@@ -85,7 +106,10 @@
          category: '',
          content: '',
          display: '',
-         procesor: ''
+         procesor: '',
+         memorija: '',
+         memorija2: '',
+         
        },
 
        error: '',
@@ -104,6 +128,9 @@
          form.append('content', this.body.content)
          form.append('display', this.body.display)
          form.append('procesor', this.body.procesor)
+         form.append('memorija', this.body.memorija)
+         form.append('memorija2', this.body.memorija2)
+         
          let res = await Phone.Objavi(form)
          console.log(res)
          this.$router.push({name : 'naslovnica'})

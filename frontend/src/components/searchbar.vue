@@ -23,6 +23,7 @@ export default {
             try {
                let res = await Phone.All(val, this.stranica, false)
                this.$store.posts = res.data.phones
+               console.log(search);
             } catch (error) {
                console.log(error);
             }

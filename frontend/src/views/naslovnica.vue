@@ -6,7 +6,7 @@
     <div class="background-line">
       <div class="row phoness">
         <div>
-          <kartice class="phones" v-for="k in $store.posts" :info="k" :key="k._id" /> 
+          <kartice sm="4" class="phones pa-3" v-for="k in $store.posts" :info="k" :key="k._id" /> 
         </div>
                 <div>
            

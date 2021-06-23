@@ -227,6 +227,11 @@ img.card-img-top{
 
 /** komentari */
 
+.add-comment-grid{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
 .comment {
   border: 1px solid #FEC303;
   background-color: #272424;
@@ -358,6 +363,51 @@ th {
     width: 300px;
     }
     
+  }
+
+  .wrapper {
+    max-width: 75%;
+    margin: auto;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 20px;
+    height: 40px;
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #666;
+    box-shadow: inset 0 0 0.25rem #ddd;
+    &:focus {
+      outline: none;
+      border: 1px solid darken(#ddd, 5%);
+      box-shadow: inset 0 0 0.5rem darken(#ddd, 5%);
+    }
+    &[placeholder] { 
+      font-style: italic;
+      font-size: 0.875rem;
+    }
+  }
+  
+  #the-count {
+    float: right;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+  }
+
+  .dodavanje-custom2 {
+    width: 80px;
+    height: 40px;
+    overflow: auto;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #666;
+    box-shadow: inset 0 0 0.25rem #ddd;
+    margin-top: 20px;
   }
 
   
