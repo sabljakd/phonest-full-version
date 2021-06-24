@@ -87,7 +87,7 @@
 			<div>
             </div>
 			<div>
-				<div class="comment text-justify" style="margin-bottom:30px;" v-for="komentar in komentari" :key="komentar._id"> <span class="datum-komentara">
+				<div class="comment text-justify" style="margin-bottom:50px;" v-for="komentar in komentari" :key="komentar._id"> <span class="datum-komentara">
                           
                             {{new Date(komentar.createdAt).getDate()}}.{{new Date(komentar.createdAt).getMonth()}}. {{new Date(komentar.createdAt).getFullYear()}} {{new Date(komentar.createdAt).getHours()}}:{{new
                             Date(komentar.createdAt).getMinutes()}}

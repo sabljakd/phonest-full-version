@@ -23,6 +23,16 @@ const PhoneSchema = new mongoose.Schema({
         required: [true, 'Unesite naziv procesora'],
         minlength:10,
     },
+    memorija: {
+        type: String,
+        required: [true, 'Unesite količinu RAM memorije'],
+        minlength: 3,
+    },
+    memorija2: {
+        type: String,
+        required: [true, 'Unesite količinu memorije uređaja'],
+        minlength: 3,
+    },
     content: {
         type: String,
         required: [true, 'Unesite content'],
